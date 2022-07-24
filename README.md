@@ -10,6 +10,7 @@ The completed Clima App project for the [Flutter Course](https://www.udemy.com/c
 
 ## Index
 - [Video 140](#Video-140)
+- [Video 144](#Video-144)
 
 ## Video-140
 - Add the geolocator dependency to the flutter pubspec.yaml and follow the platform specific instructions for plugin usage
@@ -17,3 +18,6 @@ The completed Clima App project for the [Flutter Course](https://www.udemy.com/c
 - The getCurrentPosition method is now a static method, so call it accordingly
 - You also need to add code to ask the user to provide permission for accessing location
 
+
+## Video-144
+- The 2 class variables latitude and longitude of ```Location``` class need initial values or have to be marked with the keyword late, according to newer Dart syntax. Add the ```late``` keyword in front of ```double``` datatype.
