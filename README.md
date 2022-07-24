@@ -11,6 +11,7 @@ The completed Clima App project for the [Flutter Course](https://www.udemy.com/c
 ## Index
 - [Video 140](#Video-140)
 - [Video 144](#Video-144)
+- [Video 146](#Video-146)
 
 ## Video-140
 - Add the geolocator dependency to the flutter pubspec.yaml and follow the platform specific instructions for plugin usage
@@ -21,3 +22,6 @@ The completed Clima App project for the [Flutter Course](https://www.udemy.com/c
 
 ## Video-144
 - The 2 class variables latitude and longitude of ```Location``` class need initial values or have to be marked with the keyword late, according to newer Dart syntax. Add the ```late``` keyword in front of ```double``` datatype.
+
+## Video-146
+- The ```get``` method of http package no longer takes in a string. It takes in a Uri. So instead of using ```get('yourUrl')``` , use ```get(Uri.parse('yourUrl'))``` .
