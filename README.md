@@ -13,6 +13,7 @@ The completed Clima App project for the [Flutter Course](https://www.udemy.com/c
 - [Video 144](#Video-144)
 - [Video 146](#Video-146)
 - [Video 148](#Video-148)
+- [Video 150](#Video-150)
 
 ## Video-140
 - Add the geolocator dependency to the flutter pubspec.yaml and follow the platform specific instructions for plugin usage
@@ -28,3 +29,6 @@ The completed Clima App project for the [Flutter Course](https://www.udemy.com/c
 
 ## Video-148
 - In the ```loading_screen.dart```, similar to what we did in Video-144, use the ```late``` keyword before the variables to let the compiler know that the variables will be initialized, just a bit late.
+
+## Video-150
+- Again, use ```late``` keyword for the variables temperature, condition, cityName declared in ```location_screen.dart```.
